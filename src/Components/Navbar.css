@@ -1,0 +1,17 @@
+.Nav-container {
+    background-color: gray;
+    min-height: fit-content;
+    height: 56px;
+    display: flex;
+    justify-content: right;
+}
+.btn {
+    background-color: orange;
+    border: 0;
+    height: 100%;
+    cursor: default;
+}
+.menu-icon {
+    max-height: 100%;
+    width: auto;
+}
