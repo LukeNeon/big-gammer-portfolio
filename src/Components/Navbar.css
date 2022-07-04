@@ -1,3 +1,10 @@
+:root {
+    --main-color: orange;
+}
+
+
+
+
 .Nav-container {
     background-color: gray;
     min-height: fit-content;
@@ -6,12 +13,21 @@
     justify-content: right;
 }
 .btn {
-    background-color: orange;
+    background-color: var(--main-color);
     border: 0;
     height: 100%;
     cursor: default;
 }
-.menu-icon {
+.btn-menu {
+    background-color: var(--main-color);
     max-height: 100%;
-    width: auto;
+    width: 60px;
+    border: 0;
+}
+button:hover {
+    filter: brightness(1.1);
+}
+
+button:active {
+    filter: brightness(1);
 }
