@@ -8,17 +8,17 @@ import {useState} from "react";
 const Navbar = () => {
     return (
         <div>
-            <NavItems />
-            <NavItems />
-            <NavItems />
+            <NavItems icon={<BiMenu />} />
+            <NavItems icon="shesh" />
+            <NavItems icon="Cum" />
         </div>
     ); 
 }
 
-const NavItems = () => {
+const NavItems = (props) => {
     return (
         <div>
-            <p> CUm</p>
+            <div>{props.icon}</div>
         </div>
     );
 }
