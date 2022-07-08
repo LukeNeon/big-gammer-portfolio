@@ -1,19 +1,26 @@
 import "./Navbar.css"
 import { BiMenu } from "react-icons/bi";
+import {useState} from "react";
+
+
+
 
 const Navbar = () => {
     return (
-        <div className="Nav-container">
-            <button className="btn">Cool Stuff I Do</button>
-            <button className="btn">About Me Pog</button>
-            <button className="btn">Contact Me (or not idrc :C)</button>
-            <NavbarMenu />
+        <div>
+            <NavItems />
+            <NavItems />
+            <NavItems />
         </div>
-    );
+    ); 
 }
 
-const NavbarMenu = () => {
-   return(<button className="btn-menu"><BiMenu size={"40px"} /></button>);
+const NavItems = () => {
+    return (
+        <div>
+            <p> CUm</p>
+        </div>
+    );
 }
 
 export default Navbar
